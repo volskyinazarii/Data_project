@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Hardwell</title>
+	<link rel="icon" href="../home/img/favicon.jpg" type="image/x-icon">
+	<link rel="shortcut icon" href="../home/img/favicon.jpg" type="image/x-icon">
+  	<link rel="stylesheet" href="../css/style.css">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css">
+</head>
+<body>
+	<button id="scrollTopBtn">&#8743;</button>
+	<header id="header">
+			<a href="../home/index.html"><img src="../home/img/logo.jpg" alt="logo" class="logo"></a>
+			<nav class="nav-href">
+				<ul>
+					<li class="li-item"><a href="../home/index.html" class="nav-a-item">Home</a></li>
+					<li class="li-item"><a href="../home/index.html" class="nav-a-item">About Us</a></li>
+					<li class="li-item"><a href="../home/index.html" class="nav-a-item">Services</a></li>
+					<li class="li-item"><a href="../home/index.html" class="nav-a-item">Project</a></li>
+					<li class="li-item"><a href="#" class="nav-a-item" id="openModalBtn">Contact Us</a></li>
+				</ul>
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+					  <span class="close" id="closeModalBtn">&times;</span>
+					  <h2>We will contact you</h2>
+					  <form>
+					  <label for="name">Name:</label>
+					  <input type="text" id="name" name="name" required>
+					  <label for="email">Email:</label>
+					  <input type="email" id="email" name="email" required>
+					  <button type="submit">Submit</button>
+					  </form>
+					</div>
+				</div>
+			</nav>
+		<a href="../home/index.html" class="button-get">Home</a>
+	</header>
+	<div class="all">
+		<div class="container">
+			<div class="top">€ 15/mo<p>Small</p></div>
+			<div class="block-cards">
+				<div class="info-card"><span class="first">Limited</span> <span class="two">Client Consultation</span></div>
+				<div class="info-card"><span class="first">50GB</span> <span  class="two">Documentation</span></div>
+				<div class="info-card"><span class="first">Limited</span> <span  class="two">Duplicate Removal</span></div>
+			</div>
+			<div class="line"></div>
+			<a href="#" class="sign" data-modal="myModal1" id="openModalBtn1">Buy</a>
+  			<div id="myModal1" class="modal"> 
+				<div class="modal-content">
+					<span class="close" id="closeModalBtn1">&times;</span>
+					<h2>Enter the data</h2>
+					<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name1" name="name" required>
+					<label for="bankAccount">Bank Card:</label>
+					<input type="text" id="bankAccount1" name="bankAccount" pattern="[0-9]{16}" title="Please enter a 16-digit bank account number" required>
+					<label for="promo">promocod:</label>
+					<input type="text" id="promo1" name="promocod" required>			  
+					<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container1">
+			<div class="top1">€ 29/mo <p>Medium</p></div>
+			<div class="block-cards">
+				<div class="info-card"><span class="first">Limited</span> <span class="two">Client Consultation</span></div>
+				<div class="info-card"><span class="first">80GB</span> <span class="two">Documentation</span></div>
+				<div class="info-card"><span class="first">Unlimited</span> <span class="two">Normalization and Transformation</span></div>
+				<div class="info-card"><span class="first">Unlimited</span> <span class="two">Duplicate Removal</span></div>
+			</div>
+			<div class="line"></div>
+			<a href="#" class="sign1" data-modal="myModal2" id="openModalBtn2">Buy</a>
+  			<div id="myModal2" class="modal">
+				<div class="modal-content">
+					<span class="close" id="closeModalBtn2">&times;</span>
+					<h2>Enter the data</h2>
+					<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name2" name="name" required>
+					<label for="bankAccount">Bank Card:</label>
+					<input type="text" id="bankAccount2" name="bankAccount" pattern="[0-9]{16}" title="Please enter a 16-digit bank account number" required>
+					<label for="promo">promocod:</label>
+					<input type="text" id="promo2" name="promocod" required>			  
+					<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="top2">€ 68/mo<p>Premium</p></div>
+			<div class="block-cards">
+				<div class="info-card"><span class="first">Unlimited</span> <span class="two">Client Consultation</span></div>
+				<div class="info-card"><span class="first">120GB</span> <span class="two">Documentation</span></div>
+				<div class="info-card"><span class="first">Unlimited</span> <span class="two">Normalization and Transformation</span></div>
+				<div class="info-card"><span class="first">Unlimited</span> <span class="two">Duplicate Removal</span></div>
+				<div class="info-card"><span class="first">Free</span> <span class="two">Initial Assessment</span></div>
+			</div>
+			<div class="line"></div>
+			<a href="#" class="sign2" data-modal="myModal3" id="openModalBtn3">Buy</a>
+  			<div id="myModal3" class="modal">
+				<div class="modal-content">
+					<span class="close" id="closeModalBtn3">&times;</span>
+					<h2>Enter the data</h2>
+					<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name3" name="name" required>
+					<label for="bankAccount">Bank Card:</label>
+					<input type="text" id="bankAccount" name="bankAccount" pattern="[0-9]{16}" title="Please enter a 16-digit bank account number" required>
+					<label for="promo">promocod:</label>
+					<input type="text" id="promo" name="promocod" required>			  
+					<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-service small">
+		<div class="wrap-service">
+			<h1 class="title-service">Small</h1>
+			<p class="text-service">Our Small Package is specially designed for companies looking to kickstart 
+				their data analysis journey. This comprehensive package offers a range of services tailored 
+				to meet the unique needs of smaller businesses.</p>
+			<div class="benefit">
+				<h3 class="item">Client Consultation</h3>
+				<ul>
+					<li>Feedback Session: Discussing the cleaned dataset with the client.</li>
+					<li>Revisions: Making revisions based on client feedback if necessary.</li>
+				</ul>
+				<h3 class="item">Documentation</h3>
+				<ul>
+					<li>Documentation of Changes: Recording all changes made during the data cleaning process.</li>
+					<li>Data Cleaning Report: Providing a summary report detailing the actions taken.</li>
+				</ul>
+				<h3 class="item">Mobile Compatibility</h3>
+				<ul>
+					<li>Feedback Session: Discussing the cleaned dataset with the client.</li>
+					<li>Revisions: Making revisions based on client feedback if necessary.</li>
+				</ul>
+			</div>
+		</div>
+		<img src="img/bestOffer.png" alt="small" class="img-serv">
+	</div>
+	<div class="section-service medium">
+		<img src="img/superSale.png" alt="medium" class="img-serv">
+		<div class="wrap-service">
+			<h1 class="title-service">Medium</h1>
+			<p class="text-service">Our Medium package is specially designed for companies that already 
+				have experience in the field of data analysis. This comprehensive package provides 
+				a variety of services specifically designed to meet the unique needs of mid-sized businesses.</p>
+			<div class="benefit">
+				<h3 class="item">Client Consultation</h3>
+				<ul>
+					<li>Feedback Session: Discussing the cleaned dataset with the client.</li>
+					<li>Revisions: Making revisions based on client feedback if necessary.</li>
+				</ul>
+				<h3 class="item">Documentation</h3>
+				<ul>
+					<li>Documentation of Changes: Recording all changes made during the data cleaning process.</li>
+					<li>Data Cleaning Report: Providing a summary report detailing the actions taken.</li>
+				</ul>
+				<h3 class="item">Normalization and Transformation</h3>
+				<ul>
+					<li>Data Scaling: Normalizing numerical data to a standard scale.</li>
+					<li>Variable Transformation: Applying mathematical transformations for better analysis.</li>
+				</ul>
+				<h3 class="item">Mobile Compatibility</h3>
+				<ul>
+					<li>Feedback Session: Discussing the cleaned dataset with the client.</li>
+					<li>Revisions: Making revisions based on client feedback if necessary.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="section-service premium">
+		<div class="wrap-service">
+			<h1 class="title-service">Premium</h1>
+			<p class="text-service">Our premium package is carefully designed for businesses that are already 
+				confident users of data analysis services. This sophisticated package provides a range of 
+				premium services carefully tailored to the specific requirements of large enterprises.</p>
+			<div class="benefit">
+				<h3 class="item">Client Consultation</h3>
+				<ul>
+					<li>Feedback Session: Discussing the cleaned dataset with the client.</li>
+					<li>Revisions: Making revisions based on client feedback if necessary.</li>
+				</ul>
+				<h3 class="item">Documentation</h3>
+				<ul>
+					<li>Documentation of Changes: Recording all changes made during the data cleaning process.</li>
+					<li>Data Cleaning Report: Providing a summary report detailing the actions taken.</li>
+				</ul>
+				<h3 class="item">Normalization and Transformation</h3>
+				<ul>
+					<li>Data Scaling: Normalizing numerical data to a standard scale.</li>
+					<li>Variable Transformation: Applying mathematical transformations for better analysis.</li>
+				</ul>
+				<h3 class="item">Mobile Compatibility</h3>
+				<ul>
+					<li>Feedback Session: Discussing the cleaned dataset with the client.</li>
+					<li>Revisions: Making revisions based on client feedback if necessary.</li>
+				</ul>
+				<h3 class="item">Initial Assessment</h3>
+				<ul>
+					<li>Data Quality Check: Identifying and assessing the overall quality of the dataset.</li>
+					<li>Data Profiling: Profiling the dataset to understand its structure and characteristics.</li>
+				</ul>
+			</div>
+		</div>
+		<img src="img/hotPrise.png" alt="premium" class="img-serv">
+	</div>
+	<div class="sale-prop"> 
+		<div class="title-sale">
+			Only for you, a € 10 discount on the first purchase of the medium package!
+			<span>promocod: analysis</span>
+		</div>
+		<div class="sale">
+			<div class="container1">
+				<div class="top1">
+					<span class="discount">€ 29/mo</span>
+					€ 19/mo
+					<p>Medium</p>
+				</div>
+				<div class="block-cards">
+					<div class="info-card"><span class="first">Limited</span> <span class="two">Client Consultation</span></div>
+					<div class="info-card"><span class="first">80GB</span> <span class="two">Documentation</span></div>
+					<div class="info-card"><span class="first">Unlimited</span> <span class="two">Normalization and Transformation</span></div>
+					<div class="info-card"><span class="first">Unlimited</span> <span class="two">Duplicate Removal</span></div>
+					<div class="info-card"><span class="first">+</span> <span class="two">Free Initial Assessment</span></div>
+				</div>
+				<div class="line"></div>
+				<a href="#" class="sign1">UP</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<h1 class="logo-footer">wd</h1>
+			<div class="menu-footer">
+				<h3 class="title-footer">Menu</h3>
+				<a href="../home/index.html" class="footer-list">About</a>
+				<a href="../home/index.html" class="footer-list">Portfolio</a>
+				<a href="../home/index.html" class="footer-list">Blog</a>
+				<a href="../home/index.html" class="footer-list">Contact</a>
+			</div>
+			<div class="service-footer">
+				<h3 class="title-footer">Service</h3>
+				<a href="../notFound/index.html" class="footer-list">User Experiance</a>
+				<a href="../notFound/index.html" class="footer-list">User Interface</a>
+				<a href="../notFound/index.html" class="footer-list">Logotype</a>
+				<a href="../notFound/index.html" class="footer-list">See more</a>
+			</div>
+			<div class="social">
+				<div  class="social-icon">
+					<a href="https://www.facebook.com"><img src="../home/img/facebook.png" alt="facebook"></a>
+				</div>
+				<div  class="social-icon">
+					<a href="https://twitter.com"><img src="../home/img/twitter.png" alt="twitter"></a>
+				</div>
+				<div  class="social-icon">
+					<a href="https://www.instagram.com"><img src="../home/img/instagram.png" alt="instagram"></a>
+				</div>
+			</div>
+		</div>
+		<div class="license">
+			<p class="copyright">Copyright © 2020 Laaqiq. All Rights Reserved.</p>
+			<p class="license-list">Terms of Use</p>
+			<p class="license-list">Privacy Policy</p>
+		</div>
+	</footer>
+	<script src="script/script.js"></script>
+</body>
+</html>
